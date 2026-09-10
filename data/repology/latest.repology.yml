@@ -1,0 +1,779 @@
+- repo: nix_stable_25_11
+  srcname: tcptrack
+  visiblename: tcptrack-unstable
+  version: "2017-04-29"
+  origversion: null
+  status: untrusted
+  summary: libpcap based program for live TCP connection monitoring
+  maintainers:
+    - bjorn.forsman@gmail.com
+  licenses:
+    - LGPL-2.1
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-1
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: alt_p11
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+    - tcptrack-debuginfo
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-alt1.git.2b096ac
+  status: newest
+  summary: A packet sniffer which displays TCP information like the 'top' command
+  maintainers:
+    - darktemplar@altlinux.org
+  licenses:
+    - GPLv2+
+  categories:
+    - Security/Networking
+- repo: altsisyphus
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+    - tcptrack-debuginfo
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-alt1.git.2b096ac
+  status: newest
+  summary: A packet sniffer which displays TCP information like the 'top' command
+  maintainers:
+    - darktemplar@altlinux.org
+  licenses:
+    - GPLv2+
+  categories:
+    - Security/Networking
+- repo: aosc
+  srcname: app-network/tcptrack
+  binname: tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-1
+  status: newest
+  summary: A sniffer which displays information about TCP connections
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - net
+- repo: aur
+  srcname: tcptrack
+  binname: tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  summary: A sniffer which displays information about TCP connections it sees on a network interface
+  maintainers:
+    - envolution@aur
+  licenses:
+    - GPL-2.1
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: outdated
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-1
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: debian_14
+  subrepo: forky/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-3
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-3
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: deepin_unstable
+  subrepo: main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: outdated
+  maintainers:
+    - hyperair@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: outdated
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-3
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: epel_10
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+    - tcptrack-debuginfo
+    - tcptrack-debugsource
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-15.el10_0
+  status: newest
+  summary: Displays information about tcp connections on a network interface
+  licenses:
+    - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+    - tcptrack-debuginfo
+    - tcptrack-debugsource
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-12.fc39
+  status: newest
+  summary: Displays information about tcp connections on a network interface
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+    - tcptrack-debuginfo
+    - tcptrack-debugsource
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-13.fc40
+  status: newest
+  summary: Displays information about tcp connections on a network interface
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-14.fc41
+  status: newest
+  summary: Displays information about tcp connections on a network interface
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: outdated
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - universe/net
+- repo: fedora_42
+  subrepo: release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-16.fc42
+  status: newest
+  summary: Displays information about tcp connections on a network interface
+  licenses:
+    - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-17.fc43
+  status: newest
+  summary: Displays information about tcp connections on a network interface
+  licenses:
+    - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-17.fc43
+  status: newest
+  summary: Displays information about tcp connections on a network interface
+  licenses:
+    - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_rawhide
+  subrepo: development
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-17.fc43
+  status: newest
+  summary: Displays information about tcp connections on a network interface
+  licenses:
+    - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: freebsd
+  srcname: net-mgmt/tcptrack
+  binname: tcptrack
+  visiblename: net-mgmt/tcptrack
+  version: 1.4.2
+  origversion: 1.4.2_4
+  status: outdated
+  summary: Packet sniffer that displays TCP information like top(1)
+  maintainers:
+    - portmaster@bsdforge.com
+  categories:
+    - net-mgmt
+- repo: gentoo
+  srcname: net-analyzer/tcptrack
+  visiblename: net-analyzer/tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-r1
+  status: outdated
+  summary: Passive per-connection tcp bandwidth monitor
+  maintainers:
+    - netmon@gentoo.org
+  licenses:
+    - LGPL-2.1
+  categories:
+    - net-analyzer
+- repo: gnuguix
+  srcname: tcptrack
+  binname: tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: null
+  status: newest
+  summary: TCP connections sniffer
+- repo: kali_rolling
+  subrepo: main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-3
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: liguros_stable
+  srcname: net-analyzer/tcptrack
+  visiblename: net-analyzer/tcptrack
+  version: 1.4.2
+  origversion: null
+  status: outdated
+  summary: Passive per-connection tcp bandwidth monitor
+  maintainers:
+    - netmon@gentoo.org
+  licenses:
+    - LGPL-2.1
+  categories:
+    - net-analyzer
+- repo: liguros_develop
+  srcname: net-analyzer/tcptrack
+  visiblename: net-analyzer/tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-r1
+  status: outdated
+  summary: Passive per-connection tcp bandwidth monitor
+  maintainers:
+    - netmon@gentoo.org
+  licenses:
+    - LGPL-2.1
+  categories:
+    - net-analyzer
+- repo: nix_stable_24_05
+  srcname: tcptrack
+  visiblename: tcptrack-unstable
+  version: "2017-04-29"
+  origversion: null
+  status: untrusted
+  summary: libpcap based program for live TCP connection monitoring
+  maintainers:
+    - bjorn.forsman@gmail.com
+    - rahul@gopinath.org
+  licenses:
+    - LGPL-2.1
+- repo: nix_stable_24_11
+  srcname: tcptrack
+  visiblename: tcptrack-unstable
+  version: "2017-04-29"
+  origversion: null
+  status: untrusted
+  summary: libpcap based program for live TCP connection monitoring
+  maintainers:
+    - bjorn.forsman@gmail.com
+  licenses:
+    - LGPL-2.1
+- repo: nix_stable_25_05
+  srcname: tcptrack
+  visiblename: tcptrack-unstable
+  version: "2017-04-29"
+  origversion: null
+  status: untrusted
+  summary: libpcap based program for live TCP connection monitoring
+  maintainers:
+    - bjorn.forsman@gmail.com
+  licenses:
+    - LGPL-2.1
+- repo: nix_stable_26_05
+  srcname: tcptrack
+  visiblename: tcptrack
+  version: unstable-2017-04-29
+  origversion: null
+  status: outdated
+  summary: libpcap based program for live TCP connection monitoring
+  maintainers:
+    - bjorn.forsman@gmail.com
+  licenses:
+    - LGPL-2.1
+- repo: nix_unstable
+  srcname: tcptrack
+  visiblename: tcptrack
+  version: 1.4.3-unstable-2017-04-29
+  origversion: null
+  status: ignored
+  summary: libpcap based program for live TCP connection monitoring
+  maintainers:
+    - bjorn.forsman@gmail.com
+  licenses:
+    - LGPL-2.1
+- repo: openpkg_current
+  srcname: tcptrack
+  visiblename: tcptrack
+  version: 1.3.0
+  origversion: null
+  status: outdated
+  summary: Fullscreen TCP Connection Tracker
+  licenses:
+    - GPL
+  categories:
+    - Capturing
+- repo: pardus_21
+  subrepo: main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: outdated
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: pld
+  srcname: tcptrack
+  visiblename: tcptrack
+  version: 1.4.0
+  origversion: 1.4.0-4
+  status: outdated
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: outdated
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: outdated
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: raspbian_testing
+  subrepo: main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-3
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+    - tcptrack-debuginfo
+    - tcptrack-debugsource
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-5
+  status: outdated
+  summary: A packet sniffer which displays TCP information like the 'top' command
+  maintainers:
+    - pastordidi@gmail.com
+  licenses:
+    - GPLv2+
+  categories:
+    - Monitoring
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+    - tcptrack-debuginfo
+    - tcptrack-debugsource
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-5
+  status: outdated
+  summary: A packet sniffer which displays TCP information like the 'top' command
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - GPLv2+
+  categories:
+    - Monitoring
+- repo: t2
+  srcname: tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: null
+  status: newest
+  summary: A sniffer which displays information about TCP connections
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - LGPL
+  categories:
+    - extra/tool
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2build3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/net
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-1
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - universe/net
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-1build1
+  status: outdated
+  maintainers:
+    - hyperair@ubuntu.com
+  categories:
+    - universe/net
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2build1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/net
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2build3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/net
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-1
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - universe/net
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-1build2
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/net
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - universe/net
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - universe/net
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2build1
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - universe/net
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-3
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - universe/net
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: tcptrack
+  binname: tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3_3
+  status: newest
+  summary: Monitor TCP connections on network
+  maintainers:
+    - leah@vuxu.org
+  licenses:
+    - GPL-2.0-or-later
