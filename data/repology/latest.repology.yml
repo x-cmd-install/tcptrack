@@ -1,3 +1,14 @@
+- repo: nix_stable_24_11
+  srcname: tcptrack
+  visiblename: tcptrack-unstable
+  version: "2017-04-29"
+  origversion: null
+  status: untrusted
+  summary: libpcap based program for live TCP connection monitoring
+  maintainers:
+    - bjorn.forsman@gmail.com
+  licenses:
+    - LGPL-2.1
 - repo: alt_p11
   srcname: tcptrack
   binnames:
@@ -14,18 +25,6 @@
     - GPLv2+
   categories:
     - Security/Networking
-- repo: nix_stable_24_05
-  srcname: tcptrack
-  visiblename: tcptrack-unstable
-  version: "2017-04-29"
-  origversion: null
-  status: untrusted
-  summary: libpcap based program for live TCP connection monitoring
-  maintainers:
-    - bjorn.forsman@gmail.com
-    - rahul@gopinath.org
-  licenses:
-    - LGPL-2.1
 - repo: altsisyphus
   srcname: tcptrack
   binnames:
@@ -212,7 +211,7 @@
     - LGPLv2+
   categories:
     - Unspecified
-- repo: nix_stable_24_11
+- repo: nix_stable_24_05
   srcname: tcptrack
   visiblename: tcptrack-unstable
   version: "2017-04-29"
@@ -221,6 +220,7 @@
   summary: libpcap based program for live TCP connection monitoring
   maintainers:
     - bjorn.forsman@gmail.com
+    - rahul@gopinath.org
   licenses:
     - LGPL-2.1
 - repo: fedora_40
@@ -450,7 +450,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: tcptrack
   binnames:
     - tcptrack
@@ -463,7 +463,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: tcptrack
   binnames:
     - tcptrack
