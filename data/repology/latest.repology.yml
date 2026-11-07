@@ -1,14 +1,3 @@
-- repo: nix_stable_24_11
-  srcname: tcptrack
-  visiblename: tcptrack-unstable
-  version: "2017-04-29"
-  origversion: null
-  status: untrusted
-  summary: libpcap based program for live TCP connection monitoring
-  maintainers:
-    - bjorn.forsman@gmail.com
-  licenses:
-    - LGPL-2.1
 - repo: alt_p11
   srcname: tcptrack
   binnames:
@@ -195,6 +184,24 @@
     - LicenseRef-Callaway-LGPLv2+
   categories:
     - Unspecified
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+    - tcptrack-debuginfo
+    - tcptrack-debugsource
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-5
+  status: outdated
+  summary: A packet sniffer which displays TCP information like the 'top' command
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - GPLv2+
+  categories:
+    - Monitoring
 - repo: fedora_39
   subrepo: release
   srcname: tcptrack
@@ -211,18 +218,6 @@
     - LGPLv2+
   categories:
     - Unspecified
-- repo: nix_stable_24_05
-  srcname: tcptrack
-  visiblename: tcptrack-unstable
-  version: "2017-04-29"
-  origversion: null
-  status: untrusted
-  summary: libpcap based program for live TCP connection monitoring
-  maintainers:
-    - bjorn.forsman@gmail.com
-    - rahul@gopinath.org
-  licenses:
-    - LGPL-2.1
 - repo: fedora_40
   subrepo: release
   srcname: tcptrack
@@ -381,6 +376,29 @@
     - LGPL-2.1
   categories:
     - net-analyzer
+- repo: nix_stable_24_05
+  srcname: tcptrack
+  visiblename: tcptrack-unstable
+  version: "2017-04-29"
+  origversion: null
+  status: untrusted
+  summary: libpcap based program for live TCP connection monitoring
+  maintainers:
+    - bjorn.forsman@gmail.com
+    - rahul@gopinath.org
+  licenses:
+    - LGPL-2.1
+- repo: nix_stable_24_11
+  srcname: tcptrack
+  visiblename: tcptrack-unstable
+  version: "2017-04-29"
+  origversion: null
+  status: untrusted
+  summary: libpcap based program for live TCP connection monitoring
+  maintainers:
+    - bjorn.forsman@gmail.com
+  licenses:
+    - LGPL-2.1
 - repo: nix_stable_25_05
   srcname: tcptrack
   visiblename: tcptrack-unstable
@@ -425,17 +443,6 @@
     - bjorn.forsman@gmail.com
   licenses:
     - LGPL-2.1
-- repo: openpkg_current
-  srcname: tcptrack
-  visiblename: tcptrack
-  version: 1.3.0
-  origversion: null
-  status: outdated
-  summary: Fullscreen TCP Connection Tracker
-  licenses:
-    - GPL
-  categories:
-    - Capturing
 - repo: pardus_21
   subrepo: main
   srcname: tcptrack
@@ -577,24 +584,6 @@
     - GPLv2+
   categories:
     - Monitoring
-- repo: rosa_13
-  subrepo: contrib/release
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-    - tcptrack-debuginfo
-    - tcptrack-debugsource
-  visiblename: tcptrack
-  version: 1.4.2
-  origversion: 1.4.2-5
-  status: outdated
-  summary: A packet sniffer which displays TCP information like the 'top' command
-  maintainers:
-    - alexander@mezon.ru
-  licenses:
-    - GPLv2+
-  categories:
-    - Monitoring
 - repo: t2
   srcname: tcptrack
   visiblename: tcptrack
@@ -727,6 +716,19 @@
     - universe/net
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-3
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - universe/net
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: tcptrack
   binnames:
     - tcptrack
