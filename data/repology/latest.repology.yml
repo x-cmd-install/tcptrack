@@ -1,3 +1,87 @@
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-1
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: raspbian_testing
+  subrepo: main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-3
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-2
+  status: newest
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
+- repo: pld
+  srcname: tcptrack
+  visiblename: tcptrack
+  version: 1.4.0
+  origversion: 1.4.0-4
+  status: outdated
 - repo: alt_p11
   srcname: tcptrack
   binnames:
@@ -106,6 +190,19 @@
     - hyperair@debian.org
   categories:
     - net
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: outdated
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
 - repo: debian_unstable
   subrepo: sid/main
   srcname: tcptrack
@@ -184,24 +281,6 @@
     - LicenseRef-Callaway-LGPLv2+
   categories:
     - Unspecified
-- repo: rosa_13
-  subrepo: contrib/release
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-    - tcptrack-debuginfo
-    - tcptrack-debugsource
-  visiblename: tcptrack
-  version: 1.4.2
-  origversion: 1.4.2-5
-  status: outdated
-  summary: A packet sniffer which displays TCP information like the 'top' command
-  maintainers:
-    - alexander@mezon.ru
-  licenses:
-    - GPLv2+
-  categories:
-    - Monitoring
 - repo: fedora_39
   subrepo: release
   srcname: tcptrack
@@ -290,6 +369,33 @@
     - LicenseRef-Callaway-LGPLv2+
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.3
+  origversion: 1.4.3-17.fc43
+  status: newest
+  summary: Displays information about tcp connections on a network interface
+  licenses:
+    - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: outdated
+  maintainers:
+    - hyperair@debian.org
+  categories:
+    - net
 - repo: fedora_rawhide
   subrepo: development
   srcname: tcptrack
@@ -456,116 +562,6 @@
     - hyperair@debian.org
   categories:
     - net
-- repo: parrot
-  subrepo: parrot/main
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-  visiblename: tcptrack
-  version: 1.4.3
-  origversion: 1.4.3-2
-  status: newest
-  maintainers:
-    - hyperair@debian.org
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-  visiblename: tcptrack
-  version: 1.4.3
-  origversion: 1.4.3-2
-  status: newest
-  maintainers:
-    - hyperair@debian.org
-  categories:
-    - net
-- repo: pld
-  srcname: tcptrack
-  visiblename: tcptrack
-  version: 1.4.0
-  origversion: 1.4.0-4
-  status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-  visiblename: tcptrack
-  version: 1.4.2
-  origversion: 1.4.2-2
-  status: outdated
-  maintainers:
-    - hyperair@debian.org
-  categories:
-    - net
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-  visiblename: tcptrack
-  version: 1.4.2
-  origversion: 1.4.2-2
-  status: outdated
-  maintainers:
-    - hyperair@debian.org
-  categories:
-    - net
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-  visiblename: tcptrack
-  version: 1.4.3
-  origversion: 1.4.3-2
-  status: newest
-  maintainers:
-    - hyperair@debian.org
-  categories:
-    - net
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-  visiblename: tcptrack
-  version: 1.4.3
-  origversion: 1.4.3-1
-  status: newest
-  maintainers:
-    - hyperair@debian.org
-  categories:
-    - net
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-  visiblename: tcptrack
-  version: 1.4.3
-  origversion: 1.4.3-2
-  status: newest
-  maintainers:
-    - hyperair@debian.org
-  categories:
-    - net
-- repo: raspbian_testing
-  subrepo: main
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-  visiblename: tcptrack
-  version: 1.4.3
-  origversion: 1.4.3-3
-  status: newest
-  maintainers:
-    - hyperair@debian.org
-  categories:
-    - net
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: tcptrack
@@ -580,6 +576,24 @@
   summary: A packet sniffer which displays TCP information like the 'top' command
   maintainers:
     - pastordidi@gmail.com
+  licenses:
+    - GPLv2+
+  categories:
+    - Monitoring
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: tcptrack
+  binnames:
+    - tcptrack
+    - tcptrack-debuginfo
+    - tcptrack-debugsource
+  visiblename: tcptrack
+  version: 1.4.2
+  origversion: 1.4.2-5
+  status: outdated
+  summary: A packet sniffer which displays TCP information like the 'top' command
+  maintainers:
+    - alexander@mezon.ru
   licenses:
     - GPLv2+
   categories:
