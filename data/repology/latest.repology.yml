@@ -473,19 +473,6 @@
   version: 1.4.0
   origversion: 1.4.0-4
   status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: tcptrack
-  binnames:
-    - tcptrack
-  visiblename: tcptrack
-  version: 1.4.2
-  origversion: 1.4.2-2
-  status: outdated
-  maintainers:
-    - hyperair@debian.org
-  categories:
-    - net
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: tcptrack
